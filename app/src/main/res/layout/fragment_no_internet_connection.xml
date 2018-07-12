@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/msg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:text="No internet connection"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <TextView android:id="@+id/msg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingRight="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:text="Check your mobile data or Wi-Fi"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <TextView android:id="@+id/retryTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lisItemTextColor"
+        android:background="@color/colorAccent"
+        android:textSize="22sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="RETRY"/>
+
+</LinearLayout>
